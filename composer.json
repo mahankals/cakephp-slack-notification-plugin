@@ -1,0 +1,21 @@
+{
+    "name": "mahankals/cakephp-slack-notification-plugin",
+    "description": "Simply send notification to slack from CakePHP",
+    "keywords": ["cakephp", "plugin", "slack", "notification"],
+    "type": "cakephp-plugin",
+    "require": {
+        "cakephp/cakephp": "5.1.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mahankals\\CakePHPSlackNotification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Atul Mahankal",
+            "email": "atulmahankal@gmail.com"
+        }
+    ]
+}
